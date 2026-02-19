@@ -1,0 +1,39 @@
+* {
+  font-family: "Vollkorn", Georgia, serif;
+}
+
+body,
+p,
+h1,
+ul,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 5px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: var(--text);
+}

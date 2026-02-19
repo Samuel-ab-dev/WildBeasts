@@ -1,0 +1,19 @@
+:root {
+  --w: #fff;
+  --p1: #8844ee;
+  --p2: #b07dfb;
+  --gradient: linear-gradient(135deg, var(--p1), var(--p2));
+  --back: rgba(0, 0, 0, 0.1);
+  --back_1: rgba(0, 0, 0, 0.5);
+  --c1: #fafbfc;
+  --shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  --text: rgba(0, 0, 0, 0.7);
+}
+
+.p1 {
+  color: var(--p1);
+}
+
+.p2 {
+  color: var(--p2);
+}
